@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container mt-4">
+    <h2>Lista de Clientes</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Correo Electrónico</th>
+          <th>Teléfono</th>
+          <th>Fecha de Creación</th>
+          <th>Detalles</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for cliente in clientes %}
+          <tr>
+            <td>{{ cliente.nombre }}</td>
+            <td>{{ cliente.correo_electronico }}</td>
+            <td>{{ cliente.telefono }}</td>
+            <td>{{ cliente.fecha_creacion }}</td>
+            <td><a href="{% url 'detalle_cliente' cliente.id %}">Ver Detalles</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

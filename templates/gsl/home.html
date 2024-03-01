@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - GSL{% endblock %}
+
+{% block content %}
+    <!-- Check if user is not authenticated (not logged in) -->
+    {% if not user.is_authenticated %}
+        <!-- Login Form -->
+        <div class="container mt-5">
+            <h1>Bienvenido a GSL</h1>
+            <p>Este es el sitio web de GSL. Aquí puedes encontrar información sobre cargas y clientes.</p>
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{% url 'lista_cargas' %}">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Nombre de Usuario</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </form>
+        </div>
+    {% else %}
+        <!-- Display a welcome message or redirect to another page for authenticated users -->
+        <div class="container mt-5">
+            <h1>Hola, {{ user.username }}!</h1>
+            <!-- You can customize this part based on your requirements -->
+        </div>
+    {% endif %}
+{% endblock %}

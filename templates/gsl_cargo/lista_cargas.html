@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block title %}Listado de Cargas - GSL{% endblock %}
+
+{% block content %}
+<div class="container mt-5 bg-light">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header text-center text-dark">
+          <h3>Listado de Cargas</h3>
+        </div>
+        <div class="card-body">
+          <div class="d-flex justify-content-between mb-3">
+            <h5 class="mb-0">Buscar por Palabra Clave</h5>
+            <input type="text" class="form-control" id="keyword-input" placeholder="Palabra Clave">
+          </div>
+          <table class="table table-responsive table-bordered table-hover table-striped-columns">
+            <caption>Tabla de Cargas</caption>
+            <thead>
+              <tr>
+                <th class="text-center">Fecha de Creación</th>
+                <th class="text-center">Nombre del Cliente</th>
+                <th class="text-center">Tipo de Carga</th>
+                <th class="text-center">BL/Guía Aérea</th>
+                <th class="text-center">Actividad de Carga</th>
+                <th class="text-center">Fecha de Arribo</th>
+                <th class="text-center">Vencimiento de Almacenaje</th>
+                <th class="text-center">Estado Actual</th>
+                <th class="text-center d-none d-sm-table-cell table-buttons">Agregar Gasto</th>
+                <th class="text-center d-none d-sm-table-cell table-buttons">Agregar Papelería</th>
+                <th class="text-center d-none d-md-table-cell">Editar Carga</th>
+                <th class="text-center">Detalle de Carga</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for carga in cargas %}
+              <tr>
+                <td>{{ carga.fecha_creacion }}</td>
+                <td>{{ carga.nombre_cliente }}</td>
+                <td>{{ carga.get_tipo_carga_display }}</td>
+                <td>{{ carga.get_bl_guia }}</td>
+                <td>{{ carga.get_actividad_carga_display }}</td>
+                <td>{{ carga.fecha_arribo }}</td>
+                <td>{{ carga.vencimiento_almacenaje }}</td>
+                <td>{{ carga.get_estado_actual_display }}</td>
+                <td class="d-none d-sm-table-cell table-buttons">
+                  <a href="{% url 'agregar_gasto' carga.id %}" class="btn btn-primary btn-sm">Agregar Gasto</a>
+                </td>
+                <td class="d-none d-sm-table-cell table-buttons">
+                  <a href="{% url 'agregar_papeleria' carga.id %}" class="btn btn-success btn-sm">Agregar Papelería</a>
+                </td>
+                <td class="d-none d-md-table-cell">
+                  <a href="{% url 'editar_carga' carga.id %}" class="btn btn-warning btn-sm">Editar Carga</a>
+                </td>
+                <td>
+                  <a href="{% url 'detalle_carga' carga.id %}" class="btn btn-info btn-sm">Detalle de Carga</a>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const keywordInput = document.getElementById('keyword-input');
+  keywordInput.addEventListener('input', () => {
+    const keyword = keywordInput.value.toLowerCase();
+    const rows = document.querySelectorAll('tbody tr');
+
+    rows.forEach(row => {
+      const text = row.innerText.toLowerCase();
+      if (text.includes(keyword)) {
+        row.style.display = ''; // Muestra la fila si coincide con la palabra clave
+      } else {
+        row.style.display = 'none'; // Oculta la fila si no coincide con la palabra clave
+      }
+    });
+  });
+</script>
+{% endblock %}

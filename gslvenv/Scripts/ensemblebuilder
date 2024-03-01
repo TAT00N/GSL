@@ -1,0 +1,7 @@
+#!C:\Users\tatom\OneDrive\Documentos\GSL\WS\gslvenv\Scripts\python.exe
+
+import sys
+
+if __name__ == "__main__":
+    from EB.builder.eb_main import main
+    sys.exit(main(sys.argv))

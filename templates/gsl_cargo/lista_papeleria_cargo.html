@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Papelería de Carga - GSL{% endblock %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h2>Listado de Papelería de Carga - {{ carga.nombre_cliente }}</h2>
+        <table class="table">
+            <caption>Tabla de Papelería de Carga</caption>
+            <thead>
+                <tr>
+                    <th>Tipo de Papelería</th>
+                    <th>Archivo</th>
+                    <th>Previsualizar</th>
+                    <th>Descargar</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for papeleria in papeleria_cargo %}
+                    <tr>
+                        <td>{{ papeleria.tipo_papeleria }}</td>
+                        <td>{{ papeleria.archivo.name }}</td>
+                        <td>
+                            <a href="{{ papeleria.archivo.url }}" target="_blank" class="btn btn-info">Previsualizar</a>
+                        </td>
+                        <td>
+                            <a href="{{ papeleria.archivo.url }}" download class="btn btn-success">Descargar</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

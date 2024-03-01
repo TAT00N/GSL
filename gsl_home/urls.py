@@ -1,0 +1,9 @@
+# En el archivo gsl_home/urls.py
+from django.urls import path
+from .views import home_view, login_view
+
+urlpatterns = [
+    path('', home_view, name='home'),
+    path('login/', login_view, name='login'),
+]
+

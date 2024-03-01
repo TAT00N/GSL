@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container mt-4">
+    <h2>Listado de Gastos de Carga</h2>
+    <table class="table">
+      <caption>Tabla de Gastos de Carga</caption>
+      <thead>
+        <tr>
+          <th>Nombre del Gasto</th>
+          <th>Total del Gasto</th>
+          <th>Moneda</th> <!-- Nuevo campo: Moneda -->
+          <th>Archivo</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for gasto in gastos_cargo %}
+          <tr>
+            <td>{{ gasto.nombre_gasto }}</td>
+            <td>{{ gasto.total_gasto }}</td>
+            <td>{{ gasto.moneda }}</td> <!-- Nuevo campo: Moneda -->
+            <td>{{ gasto.archivo.name }}</td>
+            <td>
+              <!-- Botón para previsualizar el documento -->
+              <a href="{{ gasto.archivo.url }}" target="_blank" class="btn btn-primary">Previsualizar</a>
+              <!-- Botón para descargar el documento -->
+              <a href="{{ gasto.archivo.url }}" download class="btn btn-success">Descargar</a>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <!-- Puedes agregar más contenido o acciones según tus necesidades -->
+  </div>
+{% endblock %}
