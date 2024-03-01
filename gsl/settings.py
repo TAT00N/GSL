@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-!mo+7aija+rh14(0l06-6*++#2xw*z-4x4%5j-a6l8_a+ti@m8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'gsl.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'GSL_DB',
+        'NAME': 'gsl_db',
         'USER': 'postgres',
         'PASSWORD': 'Basededatos00.',
         'HOST': 'localhost',
