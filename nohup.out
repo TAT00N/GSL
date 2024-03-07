@@ -1,0 +1,842 @@
+[01/Mar/2024 14:16:55] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:17:25] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:17:26] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:17:28] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:17:29] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:17:30] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 14:17:31] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:17:33] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:17:34] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:17:35] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 14:17:36] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:17:36] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:17:38] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 14:17:59] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:18:02] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4233
+[01/Mar/2024 14:18:05] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6503
+[01/Mar/2024 14:18:06] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 14:18:35] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:18:35] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 14:18:36] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:18:37] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:18:39] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6503
+[01/Mar/2024 14:18:39] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4233
+[01/Mar/2024 14:18:42] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6503
+[01/Mar/2024 14:28:13] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:28:15] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:28:16] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 14:28:18] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6503
+[01/Mar/2024 14:28:19] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4233
+[01/Mar/2024 14:28:20] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6503
+[01/Mar/2024 14:28:22] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:28:31] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 14:28:31] code 400, message Bad request version ('äNáÈ\x923ã\x846§¬å°£æa\x7fÚ\x8cv¢\x19CÙ\x96n³n\x97\\¨y94\x12ê3ö\x18Èpê')
+[01/Mar/2024 14:28:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 14:28:32] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[01/Mar/2024 14:28:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 14:28:32] "GET /favicon.ico HTTP/1.1" 404 179
+[01/Mar/2024 14:28:33] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 14:28:50,462] - Broken pipe from ('190.148.252.36', 6594)
+[01/Mar/2024 14:28:50,463] - Broken pipe from ('190.148.252.36', 6634)
+[01/Mar/2024 14:30:03] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 14:31:40] "GET / HTTP/1.1" 200 3600
+[01/Mar/2024 14:31:54,063] - Broken pipe from ('190.148.252.36', 20542)
+[01/Mar/2024 14:33:37,375] - Broken pipe from ('190.148.252.36', 57085)
+[01/Mar/2024 14:33:37,395] - Broken pipe from ('190.148.252.36', 57092)
+[01/Mar/2024 14:34:48] "POST /gsl_home/login/ HTTP/1.1" 302 0
+[01/Mar/2024 14:34:48] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:35:02,742] - Broken pipe from ('190.56.117.123', 37976)
+[01/Mar/2024 14:35:02,742] - Broken pipe from ('190.56.117.123', 37977)
+[01/Mar/2024 14:35:21] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 14:35:23] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 14:35:26] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6503
+[01/Mar/2024 15:15:05] "GET / HTTP/1.1" 200 3600
+[01/Mar/2024 15:15:05] "GET /favicon.ico HTTP/1.1" 404 179
+[01/Mar/2024 15:15:10] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 15:15:10] "GET /favicon.ico HTTP/1.1" 404 179
+[01/Mar/2024 15:15:16] "GET /admin HTTP/1.1" 301 0
+[01/Mar/2024 15:15:17] "GET /admin/ HTTP/1.1" 302 0
+[01/Mar/2024 15:15:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4223
+[01/Mar/2024 15:15:17] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:17] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:17] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:17] "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:17] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:17] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:17] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:28] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[01/Mar/2024 15:15:28] "GET /admin/ HTTP/1.1" 200 7997
+[01/Mar/2024 15:15:28] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:28] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:28] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:28] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:28] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:28] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:29] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /admin/auth/user/add/ HTTP/1.1" 200 12145
+[01/Mar/2024 15:15:32] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:15:32] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:32] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:33] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:15:33] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:33] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:15:33] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "POST /admin/auth/user/add/ HTTP/1.1" 200 12385
+[01/Mar/2024 15:17:06] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:17:06] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:06] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:07] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:07] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:07] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:43] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[01/Mar/2024 15:17:44] "GET /admin/auth/user/add/ HTTP/1.1" 200 12390
+[01/Mar/2024 15:17:44] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:17:44] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:17:44] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:06] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[01/Mar/2024 15:18:06] "GET /admin/auth/user/add/ HTTP/1.1" 200 12389
+[01/Mar/2024 15:18:06] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:06] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:06] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:06] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:06] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:18:06] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:06] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:07] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "POST /admin/auth/user/add/ HTTP/1.1" 200 12376
+[01/Mar/2024 15:18:29] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:18:29] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:29] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:30] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:30] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:30] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:30] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:57] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[01/Mar/2024 15:18:57] "GET /admin/auth/user/add/ HTTP/1.1" 200 12383
+[01/Mar/2024 15:18:57] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:57] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:57] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:57] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:57] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:18:58] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:18:58] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:26] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[01/Mar/2024 15:19:27] "GET /admin/auth/user/add/ HTTP/1.1" 200 12390
+[01/Mar/2024 15:19:27] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:19:27] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:27] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:45] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[01/Mar/2024 15:19:45] "GET /admin/auth/user/add/ HTTP/1.1" 200 12392
+[01/Mar/2024 15:19:45] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:45] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:45] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:45] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:45] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:19:45] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:45] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:19:46] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /admin/auth/group/ HTTP/1.1" 200 9166
+[01/Mar/2024 15:20:46] "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:20:46] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:46] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:20:47] "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /admin/ HTTP/1.1" 200 9765
+[01/Mar/2024 15:21:03] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:03] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /admin/auth/group/ HTTP/1.1" 200 9166
+[01/Mar/2024 15:21:08] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:21:08] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:08] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:09] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /admin/auth/group/add/ HTTP/1.1" 200 14232
+[01/Mar/2024 15:21:12] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/js/SelectBox.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 15:21:12] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:13] "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+[01/Mar/2024 15:21:32] "GET / HTTP/1.1" 200 3600
+[01/Mar/2024 15:22:06] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 15:22:07] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 15:22:07] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 15:22:08] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 15:22:09] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 15:22:09] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3619
+[01/Mar/2024 15:22:10] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 15:22:10] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 15:22:20] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5543
+[01/Mar/2024 15:22:20] "GET /favicon.ico HTTP/1.1" 404 179
+[01/Mar/2024 15:22:22] "GET /gsl_home/ HTTP/1.1" 200 4428
+[01/Mar/2024 15:22:24] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5543
+[01/Mar/2024 15:22:25] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3613
+[01/Mar/2024 15:22:26] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5543
+[01/Mar/2024 15:22:27] "GET /gsl_home/ HTTP/1.1" 200 4428
+[01/Mar/2024 15:26:02] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 15:39:15] "POST /gsl_home/login/ HTTP/1.1" 302 0
+[01/Mar/2024 15:39:15] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 5549
+[01/Mar/2024 15:39:58] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4233
+[01/Mar/2024 15:40:22] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[01/Mar/2024 15:40:22] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3892
+[01/Mar/2024 15:40:27] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6548
+[01/Mar/2024 15:41:05] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[01/Mar/2024 15:41:05] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:41:13] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:41:15] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3892
+[01/Mar/2024 15:41:17] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:41:49] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 5785
+[01/Mar/2024 15:42:09] "POST /gsl_cargo/carga/1/editar/ HTTP/1.1" 302 0
+[01/Mar/2024 15:42:10] "GET /gsl_cargo/carga/1/ HTTP/1.1" 200 4609
+[01/Mar/2024 15:42:13] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:42:59] "GET /gsl_cargo/carga/1/agregar_gasto/ HTTP/1.1" 200 5169
+[01/Mar/2024 15:43:49] "POST /gsl_cargo/carga/1/agregar_gasto/ HTTP/1.1" 200 5221
+[01/Mar/2024 15:43:49] "POST /gsl_cargo/carga/1/agregar_gasto/ HTTP/1.1" 200 5221
+[01/Mar/2024 15:44:25] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 15:44:26] "POST /gsl_cargo/carga/1/agregar_gasto/ HTTP/1.1" 200 5221
+[01/Mar/2024 15:44:31] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:44:37] "GET /gsl_cargo/carga/1/ HTTP/1.1" 200 4609
+[01/Mar/2024 15:44:40] "GET /gsl_cargo/carga/1/lista_gastos_cargo/ HTTP/1.1" 200 3776
+[01/Mar/2024 15:44:50] "GET /gsl_cargo/carga/1/agregar_papeleria/ HTTP/1.1" 200 4541
+[01/Mar/2024 15:45:02] "POST /gsl_cargo/carga/1/agregar_papeleria/ HTTP/1.1" 302 0
+[01/Mar/2024 15:45:02] "GET /gsl_cargo/carga/1/ HTTP/1.1" 200 4609
+[01/Mar/2024 15:45:05] "GET /gsl_cargo/carga/1/lista_papeleria_cargo/ HTTP/1.1" 200 4405
+[01/Mar/2024 15:45:07] "GET /media/papeleria_cargos/1/Screenshot_2024-01-28_215742.png HTTP/1.1" 404 179
+[01/Mar/2024 15:45:11] "GET /media/papeleria_cargos/1/Screenshot_2024-01-28_215742.png HTTP/1.1" 404 179
+[01/Mar/2024 15:45:20] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:45:48] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 5798
+[01/Mar/2024 15:46:46] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 6617
+[01/Mar/2024 15:47:09] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6548
+[01/Mar/2024 15:47:51] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[01/Mar/2024 15:47:52] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7737
+[01/Mar/2024 15:52:48] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6548
+[01/Mar/2024 15:52:50] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7737
+[01/Mar/2024 15:52:53] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 5798
+[01/Mar/2024 15:57:34] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 5798
+[01/Mar/2024 15:57:35] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 5798
+[01/Mar/2024 15:58:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x96@\x1bpýÄQÇ\x04Æ\x8f\x86÷´\x15\x02"\x97À®\x92Èc«;7g\x14\x04z\x10ß')
+[01/Mar/2024 15:58:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 15:58:19] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03')
+[01/Mar/2024 15:58:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:02] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00\x00')
+[01/Mar/2024 16:04:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:03] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00')
+[01/Mar/2024 16:04:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:03] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01\x00')
+[01/Mar/2024 16:04:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03ù:º°¹(&·\x87\x91ýD(µ\x82èj¸\x18Ñ')
+[01/Mar/2024 16:04:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:06] code 400, message Bad request version ('ä\x88¸Ì\x9c¥X¯_ø\x01?d«\x81â')
+[01/Mar/2024 16:04:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:06] code 400, message Bad request version ('\x8fß±=$Æ\x176,ª')
+[01/Mar/2024 16:04:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:06] code 400, message Bad request version ('%v\\\x00')
+[01/Mar/2024 16:04:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:07] code 400, message Bad request version ('\x96ë\x8fWRÇ\x8ca¿\x08e\x00#\x00\x00ÿ\x01\x00\x01\x00\x00')
+[01/Mar/2024 16:04:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Mar/2024 16:04:11] "GET / HTTP/1.1" 200 3600
+[01/Mar/2024 16:04:14] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7737
+[01/Mar/2024 16:04:18] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 6580
+[01/Mar/2024 16:04:25] "GET /admin/ HTTP/1.1" 200 9765
+[01/Mar/2024 16:04:25] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:25] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:25] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:25] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:25] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:25] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:25] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:27] "GET /admin/gsl_cargo/gslcargo/ HTTP/1.1" 200 13776
+[01/Mar/2024 16:04:27] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:27] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:27] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:27] "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:27] "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /admin/jsi18n/ HTTP/1.1" 200 8691
+[01/Mar/2024 16:04:28] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/core.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:28] "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[01/Mar/2024 16:04:44] "GET / HTTP/1.1" 200 3600
+[01/Mar/2024 16:04:45] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7737
+[01/Mar/2024 16:04:47] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4233
+[01/Mar/2024 16:04:49] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3892
+[01/Mar/2024 16:04:50] "GET /gsl_clientes/cliente/1/ HTTP/1.1" 200 3811
+[01/Mar/2024 16:04:52] "GET /gsl_clientes/cliente/1/editar/ HTTP/1.1" 200 4263
+[01/Mar/2024 16:05:00] "GET /gsl_home/ HTTP/1.1" 200 3600
+[01/Mar/2024 16:05:02] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7737
+[01/Mar/2024 16:05:32] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 16:05:33] "GET /favicon.ico HTTP/1.1" 404 179
+[01/Mar/2024 16:06:13] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 6580
+[01/Mar/2024 16:06:15] "POST /gsl_cargo/carga/1/editar/ HTTP/1.1" 302 0
+[01/Mar/2024 16:06:15] "GET /gsl_cargo/carga/1/ HTTP/1.1" 200 4609
+[01/Mar/2024 16:06:18] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7737
+[01/Mar/2024 16:08:56] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7747
+[01/Mar/2024 17:49:01] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 18:25:31] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7747
+[01/Mar/2024 19:11:32] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 19:11:37] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[01/Mar/2024 19:18:07] "GET /robots.txt HTTP/1.1" 404 179
+[01/Mar/2024 19:18:10] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 19:18:10] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 19:18:19] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[01/Mar/2024 22:17:48] "GET / HTTP/1.1" 200 4428
+[01/Mar/2024 23:27:21] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 03:47:15] "GET / HTTP/1.0" 200 4428
+[02/Mar/2024 03:54:51] "GET / HTTP/1.0" 200 4428
+[02/Mar/2024 04:03:29] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 04:03:29] "GET /favicon.ico HTTP/1.1" 404 179
+[02/Mar/2024 04:12:15] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 04:12:15] "GET /favicon.ico HTTP/1.1" 404 179
+[02/Mar/2024 05:00:40] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 05:01:04] "GET /favicon.ico HTTP/1.1" 404 179
+[02/Mar/2024 05:01:11] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 179
+[02/Mar/2024 05:01:22] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 179
+[02/Mar/2024 05:56:07] code 400, message Bad request version ('À\x13À')
+[02/Mar/2024 05:56:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Mar/2024 05:56:07] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 05:56:07] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 05:56:07] "GET /server HTTP/1.1" 404 179
+[02/Mar/2024 05:56:07] "GET /.vscode/sftp.json HTTP/1.1" 404 179
+[02/Mar/2024 05:56:07] "GET /about HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /debug/default/view?panel=config HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /v2/_catalog HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /server-status HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /_all_dbs HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /.DS_Store HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /.env HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /.git/config HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /s/235313e2535323e2234313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /config.json HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /telescope/requests HTTP/1.1" 404 179
+[02/Mar/2024 05:56:08] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 4428
+[02/Mar/2024 09:15:55] code 400, message Bad request version ('À\x14À')
+[02/Mar/2024 09:15:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Mar/2024 09:41:50] "GET / HTTP/1.1" 200 3600
+[02/Mar/2024 09:41:50] "GET /favicon.ico HTTP/1.1" 404 179
+[02/Mar/2024 09:42:01,944] - Broken pipe from ('190.148.209.251', 48777)
+[02/Mar/2024 09:42:01,945] - Broken pipe from ('190.148.209.251', 48795)
+[02/Mar/2024 16:12:48] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 17:36:18] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[02/Mar/2024 18:17:53] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 18:18:13] "GET /favicon.ico HTTP/1.1" 404 179
+[02/Mar/2024 18:18:17] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 179
+[02/Mar/2024 18:18:20] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 179
+[02/Mar/2024 20:06:26] "GET / HTTP/1.1" 200 4428
+[02/Mar/2024 20:13:38,021] - Broken pipe from ('104.152.52.206', 51983)
+[02/Mar/2024 21:10:20] code 400, message Bad request version ('À\x14À')
+[02/Mar/2024 21:10:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Mar/2024 22:05:11] "GET / HTTP/1.1" 200 3600
+[02/Mar/2024 22:05:12] "GET /favicon.ico HTTP/1.1" 404 179
+[02/Mar/2024 22:05:22] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4233
+[02/Mar/2024 22:05:25] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6548
+[02/Mar/2024 22:05:38] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3892
+[02/Mar/2024 22:05:41] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7747
+[02/Mar/2024 22:05:57,388] - Broken pipe from ('190.148.158.67', 61397)
+[02/Mar/2024 22:05:57,392] - Broken pipe from ('190.148.158.67', 61199)
+[02/Mar/2024 23:53:10] code 400, message Bad request version ('À\x13À')
+[02/Mar/2024 23:53:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Mar/2024 23:53:10] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03%E\x15c5Ûî\x82Þv¾íuªçAÕ1\x91\x9fo\x8a´\x7f@J\x01è\x14"÷)\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À\'À#À\x13À')
+[02/Mar/2024 23:53:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Mar/2024 01:44:18] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 05:29:15] code 400, message Bad request version ('I')
+[03/Mar/2024 05:29:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Mar/2024 07:31:12] code 400, message Bad request syntax ('\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03\x10s6qì\x8c´')
+[03/Mar/2024 07:31:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Mar/2024 07:31:25] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 07:31:44] "GET /favicon.ico HTTP/1.1" 404 179
+[03/Mar/2024 07:31:45] "GET /robots.txt HTTP/1.1" 404 179
+[03/Mar/2024 07:31:46] "GET /sitemap.xml HTTP/1.1" 404 179
+[03/Mar/2024 09:55:04] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[03/Mar/2024 09:55:04] "    c                           " 400 -
+[03/Mar/2024 11:35:41] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 12:08:10] "GET /System/configurationFile?auth=YWRtaW46MTEK HTTP/1.1" 404 179
+[03/Mar/2024 12:08:12] "GET /current_config/passwd HTTP/1.1" 404 179
+[03/Mar/2024 12:08:15] "GET /current_config/Account1 HTTP/1.1" 404 179
+[03/Mar/2024 12:08:17] "GET /mnt/mtd/Config/Account1 HTTP/1.1" 404 179
+[03/Mar/2024 12:08:20] "GET /etc/passwd HTTP/1.1" 404 179
+[03/Mar/2024 12:08:21] "GET /etc/passwd%00 HTTP/1.1" 404 179
+[03/Mar/2024 13:48:56] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 13:49:03] "GET /gsl_home/ HTTP/1.1" 200 4428
+[03/Mar/2024 13:49:06] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[03/Mar/2024 14:09:15] "GET /gsl_home/ HTTP/1.1" 200 4428
+[03/Mar/2024 14:24:50] code 400, message Bad request syntax ('MGLNDD_3.142.255.152_8000')
+[03/Mar/2024 14:24:50] "MGLNDD_3.142.255.152_8000" 400 -
+[03/Mar/2024 15:14:18] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4227
+[03/Mar/2024 15:31:45] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 15:31:46,608] - Broken pipe from ('118.193.56.229', 39668)
+[03/Mar/2024 15:31:46] code 400, message Bad request version ('À\x13À')
+[03/Mar/2024 15:31:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Mar/2024 15:31:47] code 400, message Bad HTTP/0.9 request type ('t3')
+[03/Mar/2024 15:31:47] "t3 12.1.2" 400 -
+[03/Mar/2024 15:31:54] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 15:31:54] "GET /favicon.ico HTTP/1.1" 404 179
+[03/Mar/2024 15:31:55] "GET /robots.txt HTTP/1.1" 404 179
+[03/Mar/2024 15:31:55] "GET /sitemap.xml HTTP/1.1" 404 179
+[03/Mar/2024 16:45:15] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[03/Mar/2024 16:47:03] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 6574
+[03/Mar/2024 16:47:08] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4657
+[03/Mar/2024 18:34:03] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 18:34:17] "GET /favicon.ico HTTP/1.1" 404 179
+[03/Mar/2024 18:34:20] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 179
+[03/Mar/2024 18:34:24] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 179
+[03/Mar/2024 19:03:05] "GET / HTTP/1.0" 200 4428
+[03/Mar/2024 19:13:02] code 400, message Bad request version ('À\x14À')
+[03/Mar/2024 19:13:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Mar/2024 19:27:05] "GET /robots.txt HTTP/1.1" 404 179
+[03/Mar/2024 19:27:11] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3886
+[03/Mar/2024 19:29:32] "GET /.env HTTP/1.1" 404 179
+[03/Mar/2024 19:32:27] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 20:10:09] "GET / HTTP/1.1" 200 4428
+[03/Mar/2024 21:57:29] code 400, message Bad request version ('À\x13À')
+[03/Mar/2024 21:57:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Mar/2024 21:57:29] "GET /db_backup/ HTTP/1.1" 404 179
+[04/Mar/2024 00:07:55] code 400, message Bad request version ('À\x14À')
+[04/Mar/2024 00:07:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 04:42:23] code 400, message Bad request version ('À\x14À')
+[04/Mar/2024 04:42:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 05:44:04] "GET / HTTP/1.0" 200 4428
+[04/Mar/2024 06:13:52] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6542
+[04/Mar/2024 06:49:42] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 06:53:38] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 06:53:39] "GET /favicon.ico HTTP/1.1" 404 179
+[04/Mar/2024 08:37:30] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+[04/Mar/2024 08:37:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 08:37:30] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+[04/Mar/2024 08:37:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 08:37:30] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+[04/Mar/2024 08:37:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 08:37:30] code 400, message Bad request version ('R')
+[04/Mar/2024 08:37:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 08:37:32] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 08:37:33] "GET /favicon.ico HTTP/1.1" 404 179
+[04/Mar/2024 08:44:14] "POST /gsl_home/login/ HTTP/1.1" 302 0
+[04/Mar/2024 08:44:14] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:44:23] "GET /gsl_cargo/carga/2/agregar_gasto/ HTTP/1.1" 200 5148
+[04/Mar/2024 08:44:34] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6527
+[04/Mar/2024 08:44:38] "GET /gsl_home/ HTTP/1.1" 200 3580
+[04/Mar/2024 08:44:40] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:44:42] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 3871
+[04/Mar/2024 08:44:47] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:48:19] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:48:42] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:48:52] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:49:07] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6527
+[04/Mar/2024 08:49:22] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:49:25] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4642
+[04/Mar/2024 08:49:31] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 08:49:34] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 6593
+[04/Mar/2024 09:00:27] "GET /gsl_cargo/carga/2/agregar_gasto/ HTTP/1.1" 200 5148
+[04/Mar/2024 10:55:35] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 10:55:41] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[04/Mar/2024 11:52:29] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[04/Mar/2024 12:02:36] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7741
+[04/Mar/2024 12:14:01] "GET /.DS_Store HTTP/1.1" 404 179
+[04/Mar/2024 13:04:30] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 6593
+[04/Mar/2024 13:05:02] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:06:49] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:06:50] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 4160
+[04/Mar/2024 13:06:53] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6586
+[04/Mar/2024 13:06:56] "GET /gsl_home/ HTTP/1.1" 200 3580
+[04/Mar/2024 13:06:58] "GET /gsl_home/ HTTP/1.1" 200 3580
+[04/Mar/2024 13:06:59] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7726
+[04/Mar/2024 13:07:01] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 6652
+[04/Mar/2024 13:08:15] "POST /gsl_cargo/carga/2/editar/ HTTP/1.1" 302 0
+[04/Mar/2024 13:08:15] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4666
+[04/Mar/2024 13:08:22] "GET /gsl_home/ HTTP/1.1" 200 3580
+[04/Mar/2024 13:08:23] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 7750
+[04/Mar/2024 13:08:36] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 6618
+[04/Mar/2024 13:09:26] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:10:19] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:10:19] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 4442
+[04/Mar/2024 13:10:29] "GET /gsl_clientes/cliente/1/ HTTP/1.1" 200 3790
+[04/Mar/2024 13:10:36] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6633
+[04/Mar/2024 13:11:45] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:11:45] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 8884
+[04/Mar/2024 13:12:08] "GET /gsl_cargo/carga/1/ HTTP/1.1" 200 4588
+[04/Mar/2024 13:12:20] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4666
+[04/Mar/2024 13:12:32] "GET /gsl_cargo/carga/2/agregar_gasto/ HTTP/1.1" 200 5148
+[04/Mar/2024 13:13:00] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 6709
+[04/Mar/2024 13:13:33] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 6665
+[04/Mar/2024 13:13:38] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:14:30] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:14:30] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 4728
+[04/Mar/2024 13:14:34] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6688
+[04/Mar/2024 13:14:36] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 8884
+[04/Mar/2024 13:14:39] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 6720
+[04/Mar/2024 13:15:37] "POST /gsl_cargo/carga/1/editar/ HTTP/1.1" 302 0
+[04/Mar/2024 13:15:37] "GET /gsl_cargo/carga/1/ HTTP/1.1" 200 4658
+[04/Mar/2024 13:15:41] "GET /gsl_cargo/carga/1/lista_papeleria_cargo/ HTTP/1.1" 200 4394
+[04/Mar/2024 13:15:47] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 8954
+[04/Mar/2024 13:15:49] "GET /gsl_home/ HTTP/1.1" 200 3580
+[04/Mar/2024 13:15:53] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 8954
+[04/Mar/2024 13:16:10] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:16:51] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:16:51] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 5016
+[04/Mar/2024 13:16:54] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 8954
+[04/Mar/2024 13:16:57] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6745
+[04/Mar/2024 13:18:13] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:18:14] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 10099
+[04/Mar/2024 13:18:42] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4666
+[04/Mar/2024 13:18:50] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 10099
+[04/Mar/2024 13:20:58] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6745
+[04/Mar/2024 13:21:55] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:21:55] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 11242
+[04/Mar/2024 13:22:09] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6745
+[04/Mar/2024 13:22:51] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:22:52] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 12373
+[04/Mar/2024 13:23:23] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:26:41] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:26:41] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 5288
+[04/Mar/2024 13:26:44] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6785
+[04/Mar/2024 13:27:29] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:27:29] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 13499
+[04/Mar/2024 13:27:51] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:28:32] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:28:32] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 5580
+[04/Mar/2024 13:28:34] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6846
+[04/Mar/2024 13:29:28] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:29:28] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 14648
+[04/Mar/2024 13:29:39] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6846
+[04/Mar/2024 13:32:59] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:32:59] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 15791
+[04/Mar/2024 13:33:19] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 13:37:08] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 13:37:08] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 5857
+[04/Mar/2024 13:37:11] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6893
+[04/Mar/2024 13:37:58] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 13:37:58] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 16934
+[04/Mar/2024 13:50:41] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 13:57:25] "GET /.env HTTP/1.1" 404 179
+[04/Mar/2024 14:46:01] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 16949
+[04/Mar/2024 14:46:50] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 6984
+[04/Mar/2024 14:52:10] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 6984
+[04/Mar/2024 14:52:11] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 16949
+[04/Mar/2024 14:52:30] "GET /gsl_cargo/carga/10/agregar_papeleria/ HTTP/1.1" 200 4535
+[04/Mar/2024 15:11:31] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 16949
+[04/Mar/2024 15:31:56] "GET /robots.txt HTTP/1.1" 404 179
+[04/Mar/2024 15:32:03] "GET /gsl_cargo/carga/3/agregar_papeleria/ HTTP/1.1" 200 4535
+[04/Mar/2024 15:35:14] "CONNECT httpbin.org:443 HTTP/1.1" 404 179
+[04/Mar/2024 15:55:57] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 15:56:00] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 16934
+[04/Mar/2024 15:56:03] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6893
+[04/Mar/2024 15:56:07] "GET /gsl_clientes/agregar_cliente/ HTTP/1.1" 200 4212
+[04/Mar/2024 15:57:16] "POST /gsl_clientes/agregar_cliente/ HTTP/1.1" 302 0
+[04/Mar/2024 15:57:16] "GET /gsl_clientes/clientes/ HTTP/1.1" 200 6137
+[04/Mar/2024 15:57:18] "GET /gsl_cargo/agregar_carga/ HTTP/1.1" 200 6940
+[04/Mar/2024 15:57:59] "POST /gsl_cargo/agregar_carga/ HTTP/1.1" 302 0
+[04/Mar/2024 15:58:00] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18073
+[04/Mar/2024 16:00:28] "GET /.vscode/sftp.json HTTP/1.1" 404 179
+[04/Mar/2024 16:32:37] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 16:34:45] "GET /gsl_cargo/carga/2/agregar_gasto/ HTTP/1.1" 200 5163
+[04/Mar/2024 16:35:04] "GET /gsl_home/ HTTP/1.1" 200 4428
+[04/Mar/2024 16:35:07] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 16:35:13] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4681
+[04/Mar/2024 16:35:18] "GET /gsl_cargo/carga/2/lista_gastos_cargo/ HTTP/1.1" 200 3770
+[04/Mar/2024 16:36:30] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4681
+[04/Mar/2024 16:36:30] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 16:36:58] "GET /gsl_cargo/carga/11/agregar_papeleria/ HTTP/1.1" 200 4535
+[04/Mar/2024 16:37:02] "GET /gsl_cargo/carga/11/agregar_gasto/ HTTP/1.1" 200 5163
+[04/Mar/2024 16:37:19] "GET /gsl_home/ HTTP/1.1" 200 4428
+[04/Mar/2024 16:37:22] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 16:55:07] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 17:30:30] code 400, message Bad request version ('À\x13À')
+[04/Mar/2024 17:30:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 17:30:31] code 400, message Bad request version ('À(À$À\x14À')
+[04/Mar/2024 17:30:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Mar/2024 17:59:52] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 17:59:55] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 18:00:00] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4681
+[04/Mar/2024 18:00:01] "GET /gsl_cargo/carga/2/lista_papeleria_cargo/ HTTP/1.1" 200 3810
+[04/Mar/2024 18:00:07] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[04/Mar/2024 18:00:09] "GET /gsl_cargo/carga/10/lista_papeleria_cargo/ HTTP/1.1" 200 3798
+[04/Mar/2024 18:10:51] "GET / HTTP/1.1" 200 4428
+[04/Mar/2024 18:22:27] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[04/Mar/2024 18:22:32] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 19:59:11] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[04/Mar/2024 20:22:06] "GET /.git/config HTTP/1.1" 404 179
+[04/Mar/2024 22:33:53] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 7027
+[05/Mar/2024 04:37:24] "GET / HTTP/1.1" 200 4428
+[05/Mar/2024 04:47:26] code 400, message Bad request version ('OÑËÜ®Ëd')
+[05/Mar/2024 04:47:26] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+[05/Mar/2024 06:16:24] "GET / HTTP/1.1" 200 4428
+[05/Mar/2024 08:43:52] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÀÉÞKbg')
+[05/Mar/2024 08:43:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Mar/2024 10:01:33] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[05/Mar/2024 11:53:09] "GET /gsl_cargo/carga/8/agregar_papeleria/ HTTP/1.1" 200 4535
+[05/Mar/2024 11:58:49] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[05/Mar/2024 12:01:59] "GET /gsl_cargo/carga/10/lista_gastos_cargo/ HTTP/1.1" 200 3770
+[05/Mar/2024 12:28:13] "GET /gsl_cargo/carga/6/ HTTP/1.1" 200 4662
+[05/Mar/2024 12:30:33] "GET /gsl_cargo/carga/6/lista_gastos_cargo/ HTTP/1.1" 200 3770
+[05/Mar/2024 13:06:41] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[05/Mar/2024 13:06:41] "    c                           " 400 -
+[05/Mar/2024 13:21:01] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[05/Mar/2024 13:23:18] "GET /gsl_cargo/carga/7/ HTTP/1.1" 200 4657
+[05/Mar/2024 13:28:59] "GET /gsl_cargo/carga/7/agregar_papeleria/ HTTP/1.1" 200 4535
+[05/Mar/2024 13:36:42] "GET /gsl_cargo/carga/8/agregar_gasto/ HTTP/1.1" 200 5163
+[05/Mar/2024 14:03:43] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18073
+[05/Mar/2024 14:03:44] "GET /favicon.ico HTTP/1.1" 404 179
+[05/Mar/2024 14:09:01] "GET /gsl_cargo/carga/4/ HTTP/1.1" 200 4676
+[05/Mar/2024 14:11:39] "GET /gsl_cargo/carga/4/lista_papeleria_cargo/ HTTP/1.1" 200 3808
+[05/Mar/2024 14:11:40] "GET /gsl_cargo/carga/4/lista_gastos_cargo/ HTTP/1.1" 200 3770
+[05/Mar/2024 14:36:08] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[05/Mar/2024 14:36:08] "    c                           " 400 -
+[05/Mar/2024 15:05:47] "GET /gsl_cargo/carga/10/editar/ HTTP/1.1" 200 7032
+[05/Mar/2024 15:48:19] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[05/Mar/2024 16:05:09] "GET /favicon.ico HTTP/1.1" 404 179
+[05/Mar/2024 16:10:53] "GET /gsl_cargo/carga/5/ HTTP/1.1" 200 4674
+[05/Mar/2024 16:44:06] "GET /gsl_cargo/carga/5/editar/ HTTP/1.1" 200 7027
+[05/Mar/2024 17:06:41] "GET /gsl_cargo/carga/7/editar/ HTTP/1.1" 200 7025
+[05/Mar/2024 17:30:24] "GET /gsl_cargo/carga/7/agregar_gasto/ HTTP/1.1" 200 5163
+[05/Mar/2024 18:18:27] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4681
+[05/Mar/2024 18:39:30] "GET / HTTP/1.1" 200 4428
+[05/Mar/2024 18:57:10] "GET /gsl_cargo/carga/3/agregar_papeleria/ HTTP/1.1" 200 4535
+[05/Mar/2024 20:20:42] "GET /robots.txt HTTP/1.1" 404 179
+[05/Mar/2024 20:20:48] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 7027
+[05/Mar/2024 21:12:52] "GET /gsl_cargo/carga/9/agregar_papeleria/ HTTP/1.1" 200 4535
+[05/Mar/2024 21:33:49] "GET / HTTP/1.1" 200 4428
+[05/Mar/2024 21:40:18] "GET /gsl_cargo/carga/6/editar/ HTTP/1.1" 200 7023
+[05/Mar/2024 21:50:55] "GET /gsl_cargo/carga/5/agregar_papeleria/ HTTP/1.1" 200 4535
+[05/Mar/2024 22:22:12] code 400, message Bad request syntax ('MGLNDD_3.142.255.152_8000')
+[05/Mar/2024 22:22:12] "MGLNDD_3.142.255.152_8000" 400 -
+[05/Mar/2024 22:36:53] "GET / HTTP/1.1" 200 4428
+[05/Mar/2024 23:13:03] "GET /gsl_cargo/carga/8/ HTTP/1.1" 200 4680
+[05/Mar/2024 23:13:07] "GET /gsl_cargo/carga/11/editar/ HTTP/1.1" 200 7029
+[05/Mar/2024 23:42:13] "GET /gsl_cargo/carga/2/agregar_gasto/ HTTP/1.1" 200 5163
+[05/Mar/2024 23:42:59] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 7031
+[06/Mar/2024 00:08:12] "GET / HTTP/1.1" 200 4428
+[06/Mar/2024 00:09:03] "GET /gsl_cargo/carga/9/ HTTP/1.1" 200 4674
+[06/Mar/2024 00:14:57] "GET /gsl_cargo/carga/9/lista_papeleria_cargo/ HTTP/1.1" 200 3806
+[06/Mar/2024 00:14:57] "GET /gsl_cargo/carga/9/lista_gastos_cargo/ HTTP/1.1" 200 3770
+[06/Mar/2024 00:32:26] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Mar/2024 00:32:26] "    c                           " 400 -
+[06/Mar/2024 01:00:31] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 179
+[06/Mar/2024 01:00:41] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[06/Mar/2024 01:00:41] " PpTi4 " 400 -
+[06/Mar/2024 01:00:41] code 400, message Bad request syntax ('\x05\x01\x00')
+[06/Mar/2024 01:00:41] " " 400 -
+[06/Mar/2024 02:13:20] "GET / HTTP/1.1" 200 4428
+[06/Mar/2024 02:13:31] "GET /favicon.ico HTTP/1.1" 404 179
+[06/Mar/2024 02:13:37] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 179
+[06/Mar/2024 02:13:40] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 179
+[06/Mar/2024 02:29:28] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Mar/2024 02:29:28] "    c                           " 400 -
+[06/Mar/2024 03:22:59] "GET /gsl_cargo/carga/10/agregar_gasto/ HTTP/1.1" 200 5163
+[06/Mar/2024 03:24:57] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[06/Mar/2024 06:17:23] "GET /gsl_cargo/carga/6/agregar_papeleria/ HTTP/1.1" 200 4535
+[06/Mar/2024 06:31:24] "GET /gsl_clientes/cliente/1/ HTTP/1.1" 200 3805
+[06/Mar/2024 06:35:38] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Mar/2024 06:35:38] "    c                           " 400 -
+[06/Mar/2024 06:48:27] "GET /gsl_cargo/carga/9/editar/ HTTP/1.1" 200 7027
+[06/Mar/2024 06:56:41] "GET /gsl_cargo/carga/4/agregar_gasto/ HTTP/1.1" 200 5163
+[06/Mar/2024 07:03:59] "GET /gsl_cargo/carga/6/agregar_gasto/ HTTP/1.1" 200 5163
+[06/Mar/2024 07:50:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[06/Mar/2024 07:50:01] "  /*à     Cookie: mstshash=Administr" 400 -
+[06/Mar/2024 07:56:11] "GET /gsl_cargo/carga/3/ HTTP/1.1" 200 4665
+[06/Mar/2024 08:06:13] "GET /gsl_cargo/carga/3/editar/ HTTP/1.1" 200 7027
+[06/Mar/2024 08:10:33] "GET /gsl_cargo/carga/5/agregar_gasto/ HTTP/1.1" 200 5163
+[06/Mar/2024 08:21:13] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[06/Mar/2024 12:41:25] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Mar/2024 12:41:25] "    c                           " 400 -
+[06/Mar/2024 12:52:53] "GET /gsl_cargo/carga/3/agregar_gasto/ HTTP/1.1" 200 5163
+[06/Mar/2024 13:12:57] "GET / HTTP/1.1" 200 3600
+[06/Mar/2024 13:12:58] "GET /favicon.ico HTTP/1.1" 404 179
+[06/Mar/2024 13:13:01] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18094
+[06/Mar/2024 13:13:34] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4687
+[06/Mar/2024 13:13:35] "GET /gsl_cargo/carga/2/lista_papeleria_cargo/ HTTP/1.1" 200 3816
+[06/Mar/2024 13:13:46] "GET /gsl_cargo/carga/2/lista_gastos_cargo/ HTTP/1.1" 200 3776
+[06/Mar/2024 13:13:49] "GET /gsl_cargo/carga/2/lista_papeleria_cargo/ HTTP/1.1" 200 3816
+[06/Mar/2024 13:13:56] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4687
+[06/Mar/2024 15:02:01] "GET /gsl_cargo/carga/2/agregar_gasto/ HTTP/1.1" 200 5163
+[06/Mar/2024 15:25:42] "GET /sitemaps.xml HTTP/1.1" 404 179
+[06/Mar/2024 15:32:03] "GET /sitemap.txt HTTP/1.1" 404 179
+[06/Mar/2024 15:44:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03¬V§\x0f#¯õL·!\x18Ã»¿\x82yã\x84n®\x00làÐÁUÌ\x06\x98r}\x04\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[06/Mar/2024 15:44:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Mar/2024 15:48:29] "GET / HTTP/1.1" 200 4428
+[06/Mar/2024 15:50:06] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[06/Mar/2024 17:11:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03OB¿½ê+Y)\xad\\+2¨\x94k8¾ùu£Z1-ÜZR$ü\x01.\x9b\x81\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[06/Mar/2024 17:11:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Mar/2024 17:22:23] "GET /sitemap_index.xml HTTP/1.1" 404 179
+[06/Mar/2024 17:51:42] "GET /sitemap.xml HTTP/1.1" 404 179
+[06/Mar/2024 18:24:07] "GET /gsl_cargo/carga/4/lista_papeleria_cargo/ HTTP/1.1" 200 3808
+[06/Mar/2024 18:56:04] "GET /gsl_cargo/carga/6/lista_papeleria_cargo/ HTTP/1.1" 200 3798
+[06/Mar/2024 18:59:49] "GET /atom.xml HTTP/1.1" 404 179
+[06/Mar/2024 20:07:10] "GET /gsl_cargo/carga/9/lista_papeleria_cargo/ HTTP/1.1" 200 3806
+[06/Mar/2024 23:03:07] "GET / HTTP/1.1" 200 4428
+[07/Mar/2024 00:00:37] "GET /gsl_cargo/carga/2/ HTTP/1.1" 200 4681
+[07/Mar/2024 00:03:35] "GET /gsl_cargo/carga/2/lista_papeleria_cargo/ HTTP/1.1" 200 3810
+[07/Mar/2024 00:03:40] "GET /gsl_cargo/carga/2/lista_gastos_cargo/ HTTP/1.1" 200 3770
+[07/Mar/2024 00:25:37] "GET / HTTP/1.1" 200 4428
+[07/Mar/2024 01:32:33] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Mar/2024 01:32:33] "    c                           " 400 -
+[07/Mar/2024 02:56:54] "GET /gsl_cargo/carga/2/editar/ HTTP/1.1" 200 7031
+[07/Mar/2024 03:07:36] "GET /gsl_cargo/carga/1/editar/ HTTP/1.1" 200 7027
+[07/Mar/2024 04:01:12] "GET / HTTP/1.1" 200 4428
+[07/Mar/2024 04:01:21] "GET /favicon.ico HTTP/1.1" 404 179
+[07/Mar/2024 04:01:25] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 179
+[07/Mar/2024 04:01:28] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 179
+[07/Mar/2024 09:40:24] "GET / HTTP/1.1" 200 4428
+[07/Mar/2024 09:40:24] "GET /favicon.ico HTTP/1.1" 404 179
+[07/Mar/2024 09:40:28] "GET /gsl_cargo/cargas/ HTTP/1.1" 200 18088
+[07/Mar/2024 10:09:58] "GET /gsl_cargo/carga/10/ HTTP/1.1" 200 4672
+[07/Mar/2024 10:11:19] "GET / HTTP/1.1" 200 3600
