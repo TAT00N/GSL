@@ -12,7 +12,8 @@ class GSLCargo(models.Model):
     vencimiento_almacenaje = models.DateTimeField(blank=True, null=True)  # Permite que esté en blanco
     estado_actual = models.CharField(max_length=255, choices=[('Notificada','Notificada'), ('En proceso','En proceso'), ('Entregada','Entregada'), ('Cobrada','Cobrada')])
     bl_guia = models.CharField(max_length=255, blank=True, null=True)
-    
+    naviera = models.CharField(max_length=200, blank=True, null=True)
+
 class GSLPapeleriaCargo(models.Model):
     id_carga = models.ForeignKey(GSLCargo, on_delete=models.CASCADE)
     id_cliente = models.ForeignKey(GSLClientes, on_delete=models.CASCADE)

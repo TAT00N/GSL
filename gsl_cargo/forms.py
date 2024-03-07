@@ -21,7 +21,7 @@ class PapeleriaForm(forms.ModelForm):
 class GSLCargoForm(forms.ModelForm):
     class Meta:
         model = GSLCargo
-        fields = ['nombre_cliente', 'tipo_carga', 'actividad_carga', 'fecha_arribo', 'vencimiento_almacenaje', 'estado_actual', 'bl_guia']
+        fields = ['nombre_cliente', 'tipo_carga', 'actividad_carga', 'fecha_arribo', 'vencimiento_almacenaje', 'estado_actual', 'bl_guia', 'naviera']
 
     widgets = {
         'fecha_arribo': forms.DateTimeInput(attrs={'type': 'datetime-local'}, format='%Y-%m-%dT%H:%M'),
