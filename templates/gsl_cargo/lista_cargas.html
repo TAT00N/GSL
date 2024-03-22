@@ -11,24 +11,20 @@
           <h3>Listado de Cargas</h3>
         </div>
         <div class="card-body">
-          <div class="d-flex justify-content-between mb-3">
-            <h5 class="mb-0">Buscar por Palabra Clave</h5>
-            <input type="text" class="form-control" id="keyword-input" placeholder="Palabra Clave">
-          </div>
           <div class="table-responsive"> 
-            <table class="table table-responsive table-bordered table-hover table-striped-columns">
+            <table id="dataTable" class="table table-responsive table-bordered table-hover table-striped-columns">
               <caption>Tabla de Cargas</caption>
               <thead>
                 <tr>
-                  <th class="text-center">Fecha de Creación</th>
-                  <th class="text-center">Nombre del Cliente</th>
-                  <th class="text-center">Tipo de Carga</th>
-                  <th class="text-center">BL/Guía Aérea</th>
-                  <th class="text-center">Naviera</th>
-                  <th class="text-center">Actividad de Carga</th>
-                  <th class="text-center">Fecha de Arribo</th>
-                  <th class="text-center">Vencimiento de Almacenaje</th>
-                  <th class="text-center">Estado Actual</th>
+                  <th class="text-center">Nombre del Cliente <button class="btn btn-link sort-btn" data-column="0">Ordenar</button></th>
+                  <th class="text-center">Tipo de Carga <button class="btn btn-link sort-btn" data-column="1">Ordenar</button></th>
+                  <th class="text-center">BL/Guía Aérea <button class="btn btn-link sort-btn" data-column="2">Ordenar</button></th>
+                  <th class="text-center">Naviera <button class="btn btn-link sort-btn" data-column="3">Ordenar</button></th>
+                  <th class="text-center">Actividad de Carga <button class="btn btn-link sort-btn" data-column="4">Ordenar</button></th>
+                  <th class="text-center">Fecha de Arribo <button class="btn btn-link sort-btn" data-column="5">Ordenar</button></th>
+                  <th class="text-center">Vencimiento de Almacenaje <button class="btn btn-link sort-btn" data-column="6">Ordenar</button></th>
+                  <th class="text-center">Demora <button class="btn btn-link sort-btn" data-column="7">Ordenar</button></th>
+                  <th class="text-center">Estado Actual <button class="btn btn-link sort-btn" data-column="8">Ordenar</button></th>
                   <th class="text-center d-none d-sm-table-cell table-buttons">Agregar Gasto</th>
                   <th class="text-center d-none d-sm-table-cell table-buttons">Agregar Papelería</th>
                   <th class="text-center d-none d-md-table-cell">Editar Carga</th>
@@ -38,14 +34,14 @@
               <tbody>
                 {% for carga in cargas %}
                 <tr>
-                  <td>{{ carga.fecha_creacion }}</td>
                   <td>{{ carga.nombre_cliente }}</td>
                   <td>{{ carga.get_tipo_carga_display }}</td>
-                  <td>{{ carga.bl_guia  }}</td>
-                  <td>{{ carga.naviera  }}</td>
+                  <td>{{ carga.bl_guia }}</td>
+                  <td>{{ carga.naviera }}</td>
                   <td>{{ carga.get_actividad_carga_display }}</td>
                   <td>{{ carga.fecha_arribo }}</td>
                   <td>{{ carga.vencimiento_almacenaje }}</td>
+                  <td>{{ carga.demora }}</td>
                   <td>{{ carga.get_estado_actual_display }}</td>
                   <td class="d-none d-sm-table-cell table-buttons">
                     <a href="{% url 'agregar_gasto' carga.id %}" class="btn btn-primary btn-sm">Agregar Gasto</a>
@@ -62,7 +58,7 @@
                 </tr>
                 {% endfor %}
               </tbody>
-            </table>
+            </table>            
           </div>
         </div>
       </div>
@@ -71,29 +67,47 @@
 </div>
 
 <script>
-  const keywordInput = document.getElementById('keyword-input');
-  keywordInput.addEventListener('input', () => {
-    const keyword = keywordInput.value.toLowerCase();
-    const rows = document.querySelectorAll('tbody tr');
+document.addEventListener('DOMContentLoaded', function() {
+  // Set default sorting
+  var dataTable = document.getElementById('dataTable');
+  var defaultSortColumnIndex = 5; // Default sorting by column index 5 (Fecha de Arribo)
+  sortTable(defaultSortColumnIndex);
 
-    rows.forEach(row => {
-      const text = row.innerText.toLowerCase();
-      if (text.includes(keyword)) {
-        row.style.display = ''; // Show the row if it matches the keyword
-      } else {
-        row.style.display = 'none'; // Hide the row if it doesn't match the keyword
-      }
-
-      // Get the cell containing the "Fecha de Arribo" date
-      const fechaArriboCell = row.querySelector('td:nth-child(7)');
-
-      // Check if the "Fecha de Arribo" date has passed
-      if (new Date(fechaArriboCell.innerText) <= new Date()) {
-        fechaArriboCell.style.backgroundColor = 'blue'; // Apply blue background
-      } else {
-        fechaArriboCell.style.backgroundColor = ''; // Remove background color
-      }
+  // Add event listeners for sorting buttons
+  var sortButtons = document.querySelectorAll('.sort-btn');
+  sortButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var column = parseInt(this.getAttribute('data-column'));
+      sortTable(column);
     });
   });
+
+  // Function to sort table
+  function sortTable(columnIndex) {
+    var table = dataTable.getElementsByTagName('tbody')[0];
+    var rows = Array.from(table.getElementsByTagName('tr'));
+    
+    rows.sort(function(rowA, rowB) {
+      var cellA = rowA.getElementsByTagName('td')[columnIndex].textContent.trim();
+      var cellB = rowB.getElementsByTagName('td')[columnIndex].textContent.trim();
+      
+      if (!isNaN(cellA) && !isNaN(cellB)) {
+        return parseFloat(cellA) - parseFloat(cellB);
+      } else {
+        return cellA.localeCompare(cellB);
+      }
+    });
+    
+    // Remove existing rows from the table
+    while (table.firstChild) {
+      table.removeChild(table.firstChild);
+    }
+    
+    // Append sorted rows to the table
+    rows.forEach(function(row) {
+      table.appendChild(row);
+    });
+  }
+});
 </script>
 {% endblock %}
